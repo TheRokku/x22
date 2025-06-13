@@ -32,3 +32,13 @@
    git clone https://github.com/TheRokku/X22Digital-website-v2.git
    cd X22Digital-website-v2
    ```
+
+## 📸 Screenshots 
+Coming soon
+
+## 👏 Credits  
+Developed by [@TheRokku](https://github.com/TheRokku).  
+
+## 📩 Contact  
+For inquiries, email [axelbarriosemmanuel@gmail.com](mailto:axelbarriosemmanuel@gmail.com).  
+
