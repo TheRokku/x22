@@ -1,0 +1,137 @@
+---
+import Contact from "./Contact.astro";
+---
+
+<main class="my-20 h-full w-full flex flex-col justify-center gap-10" id="main">
+  <!--- What does a marketing agency do --->
+  <div class="px-20 flex flex-row my-10">
+    <div class="flex flex-col justify-center items-start gap-2 w-1/2">
+      <h2 class="mb-2 text-4xl font-semibold font-titles text-white/90">
+        ¿Qué hace una agencia de marketing digital?
+      </h2>
+      <p class="max-w-[90%] text-lg text-white/85 font-subtitles">
+        Mediante estrategias personalizadas, una agencia de marketing digital
+        optimiza la presencia en línea de una marca, empleando distintos canales
+        digitales y técnicas de segmentación para atraer y fidelizar a su
+        audiencia ideal. Como resultado, se logra un mayor posicionamiento de la
+        marca, más leads calificados y un incremento en las ventas.
+      </p>
+      <a
+        class="mt-10 bg-gradient-to-b from-logo-purple to-dark-pink/70 px-3 py-2 rounded-2xl text-lg uppercase font-titles font-semibold hover:to-logo-purple transition-colors duration-300"
+        href="/sobreNosotros">Descubre más</a
+      >
+    </div>
+    <div class="object-cover w-1/2 rounded-2xl overflow-hidden">
+      <video src="src/components/videos/creativity.mp4" loop muted autoplay
+      ></video>
+    </div>
+  </div>
+  <!--- Info Line --->
+  <div
+    class="flex flex-row gap-10 justify-center items-center flex-wrap py-10 bg-dark-purple/10 mt-20"
+  >
+    <div class="flex flex-col justify-center items-center">
+      <span
+        class="text-center text-transparent bg-clip-text bg-gradient-to-t from-dark-pink to-light-pink/90 text-7xl font-bold font-titles"
+        >80%</span
+      >
+      <h3
+        class="text-center mb-1 text-2xl font-semibold text-dark-pink font-titles"
+      >
+        de las personas
+      </h3>
+      <p class="text-center max-w-[80%] text-lg font-subtitles">
+        interactúan con los primeros resultados de Google.
+      </p>
+    </div>
+
+    <div class="flex flex-col justify-center items-center">
+      <span
+        class="text-center text-transparent bg-clip-text bg-gradient-to-t from-dark-pink to-light-pink/90 text-7xl font-bold font-titles"
+        >90%</span
+      >
+      <h3
+        class="text-center mb-1 text-2xl font-semibold text-dark-pink font-titles"
+      >
+        de los clics
+      </h3>
+      <p class="text-center max-w-[80%] text-lg font-subtitles">
+        se hacen en la primera página de búsqueda.
+      </p>
+    </div>
+    <div class="flex flex-col justify-center items-center">
+      <span
+        class="text-center text-transparent bg-clip-text bg-gradient-to-t from-dark-pink to-light-pink/90 text-7xl font-bold font-titles"
+        >80%
+      </span>
+      <h3
+        class="text-center mb-1 text-2xl font-semibold text-dark-pink font-titles"
+      >
+        de los negocios
+      </h3>
+      <p class="text-center max-w-[80%] text-lg font-subtitles">
+        logra posicionar su negocio gracias al contenido orientado al usuario.
+      </p>
+    </div>
+  </div>
+  <!--- Service Cards --->
+  <h2
+    class="mt-10 text-4xl text-center font-semibold font-titles text-white/90"
+  >
+    Nuestros servicios
+  </h2>
+  <div class="grid grid-cols-3 justify-center items-center gap-5">
+    <div
+      class="flex flex-col justify-center items-left bg-dark-purple/10 rounded-2xl p-5"
+    >
+      <i class="bx bx-globe text-6xl my-5"></i>
+      <h3 class="text-xl font-titles font-semibold">Desarrollo Web</h3>
+      <p class="my-2">
+        Creamos tu web a medida, combinando diseño innovador y tecnología
+        avanzada para impulsar tu negocio con máxima eficiencia y rendimiento.
+        Adaptamos soluciones únicas que se ajustan a tus necesidades
+        específicas.
+      </p>
+      <a
+        class="max-w-fit mt-10 bg-gradient-to-b from-logo-purple to-dark-pink/70 px-3 py-2 rounded-2xl text-lg uppercase font-titles font-semibold hover:to-logo-purple transition-colors duration-300"
+        href="/servicios">Ver más</a
+      >
+    </div>
+    <div
+      class="flex flex-col justify-center items-left bg-dark-purple/10 rounded-2xl p-5"
+    >
+      <i class="bx bx-bar-chart-alt text-6xl my-5"></i>
+      <h3 class="text-xl font-titles font-semibold decoration-dark-pink">
+        Creación de ADS
+      </h3>
+      <p class="my-2">
+        Impulsamos tu éxito digital con estrategias personalizadas, IA
+        vanguardista y marketing innovador. Garantizamos una presencia online
+        poderosa, adaptada a las últimas tendencias y a tus objetivos
+        específicos.
+      </p>
+      <a
+        class="max-w-fit mt-10 bg-gradient-to-b from-logo-purple to-dark-pink/70 px-3 py-2 rounded-2xl text-lg uppercase font-titles font-semibold hover:to-logo-purple transition-colors duration-300"
+        href="/servicios">Ver más</a
+      >
+    </div>
+    <div
+      class="flex flex-col justify-center items-left bg-dark-purple/10 rounded-2xl p-5"
+    >
+      <i class="bx bxs-building text-6xl my-5"></i>
+      <h3 class="text-xl font-titles font-semibold">
+        Consultoría y Capacitación
+      </h3>
+      <p class="my-2">
+        Ofrecemos capacitación y consultoría especializada para gerentes,
+        emprendedores y líderes empresariales. Formación práctica en marketing y
+        gestión para potenciar tus resultados y estrategias de negocio.
+      </p>
+      <a
+        class="max-w-fit mt-10 bg-gradient-to-b from-logo-purple to-dark-pink/70 px-3 py-2 rounded-2xl text-lg uppercase font-titles font-semibold hover:to-logo-purple transition-colors duration-300"
+        href="/servicios">Ver más</a
+      >
+    </div>
+  </div>
+  <Contact />
+</main>
